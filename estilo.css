@@ -5,9 +5,8 @@ body {
 div.segundofondo{
   background: white;
 margin: 5%
-
 }
-
+.tit{color: black;}
 nav{background-color: red;
 padding:1%;
 }
@@ -15,29 +14,51 @@ padding:1%;
 a.nav-link { color: white
 }
 
-div.card{ width: 45%;
-margin: 2%;
-padding: 1%;
+div.card{
 background-color: white}
 
-#carouselExampleCaptions { display: flex;
-  justify-content: right;
-  width: 75%;
+#carouselExampleDark { display: flex;
+  justify-content: center;
+  width: 90%;
   margin: 5%;
 }
 
-.card-title{ font-size: 1rem;
-text-align: center;}
+.card-title{ font-size: 2rem;
+text-align: center;
+font-weight: bold;}
 
-.card-text{ text-align: down;}
+.card-text{ font-weight: lighter;
+font-size: 1.5rem;
+font-weight: bold;
+text-shadow: white }
+
+.card-img { opacity: 70%;
+}
 
 .titulo{text-align: center;
-font-size: 30px;}
+font-size: 30px;
+}
 
-div.linea{ height: 1%;
-background-color: red;}
+.tit{font-weight: bold;
+font-size: 2rem;
+}
 
-.piedepagina{background-color: black;
+div.linea{ height: 5px;
+background-color: red;
+}
+
+.piedepagina{background-color: white;
 width: 100%;}
 
 footer{width: 100%;}
+
+.nos{ box-sizing: content-box;
+  margin: 1%;
+}
+
+@media screen and (max-width: 640px)
+{#carouselExampleDark {display: none;}
+}
+.flexiconos{ display: flex;
+justify-content: flex-start;
+}

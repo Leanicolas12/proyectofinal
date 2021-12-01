@@ -1,0 +1,46 @@
+body{ background-image: url(imagenes/fondo.jpg);
+}
+
+div.segundofondo{
+  background: white;
+margin: 5%;}
+
+nav{background-color: red;
+padding:1%;
+}
+
+a.nav-link { color: white;
+}
+section{width: 100%;}
+
+iframe{width: 50%;
+height: 50%;
+border: red;
+margin: 3%;
+}
+div.linea{ height: 5px;
+background-color: red;
+}
+
+.piedepagina{background-color: white;
+width: 100%;}
+
+footer{width: 100%;}
+
+.nos{ box-sizing: border-box;
+  margin: 1%;
+  width: 35%;
+}
+
+.flexiconos{
+   display: flex;
+justify-content: flex-start;
+}
+
+.pdp{
+  display: flex;
+justify-content: space-between;
+}
+
+.mapa{width: 80%;
+height: 80%;}
